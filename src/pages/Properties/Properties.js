@@ -1,5 +1,5 @@
 import React from "react";
-import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map} from "../../components";
+import {Godavariheader, Floorplan,Propertiesfooter,Yourdreamhouse,Specifications,Road,Map, GetInTouch} from "../../components";
 import leftarrowyourdreamhouse from "../../images/vector-left-arrow.svg";
 import rightarrowyourdreamhouse from "../../images/vector-right-arrow.svg";
 import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
@@ -24,7 +24,7 @@ const Properties = () => {
             <Road roadImage={roadImg} width="583px" height="555px" roadtext="800Meters to D-Mart" roadtext2="200 Meters to Tapovanam Circle" heading="Location Advantages"/>
             <Map />
             </div>
-            
+            <GetInTouch/>
             <Propertiesfooter />
         </div>
     );

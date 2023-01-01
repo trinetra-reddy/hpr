@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import "./Ourculture.scss";
 const Ourculture = (props) => {
   return (
@@ -13,8 +13,11 @@ const Ourculture = (props) => {
         <div className={`culture-container ${props.imgPosition}`}>
           <img  className="culture-img-wrapper" src={props.imgPath} alt=""/>
           <div className="culture-description">
-            <p>{props.description}</p>
-            <p>{props.linkeddescription}</p>
+          {props.description &&  <p>{props.description}</p>}
+            {props.linkeddescription && <p>{props.linkeddescription}</p>}
+            {props.thirdDesc && <p>{props.thirdDesc}</p>}
+
+            {props.children}
           </div>
         </div>
       </div>

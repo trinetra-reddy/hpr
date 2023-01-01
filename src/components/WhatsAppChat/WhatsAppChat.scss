@@ -1,0 +1,29 @@
+.whatsapp-chat {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    .on-hover-text {
+        position: absolute;
+        display: none;
+        min-width: 118px;
+        right: 46px;
+        color: #000;
+        background: #fff;
+        box-shadow: 0 1.93465px 7.73859px rgb(0 0 0 / 15%);
+        padding: 5px 8px;
+        bottom: 2px;
+        border-radius: 7px;
+        &::after {
+            content: '';
+            border: 5px solid transparent;
+            z-index: 1001;
+
+        }
+    }
+
+    &:hover {
+        .on-hover-text {
+            display: block;
+        }
+    }
+}

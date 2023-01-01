@@ -5,9 +5,10 @@
   letter-spacing: -0.03em;
 }
 .Leader-img {
-  max-width: 100%;
   border-radius: 50%;
   padding: 10px;
+  width: 250px;
+  height: 250px;
 
 }
 .Leadership-main {
@@ -37,6 +38,18 @@
     margin-top: 30px;
   }
   .Holder-name {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.leadership {
+  &__degree {
+    font-size: 12px;
+    letter-spacing: 1.3px;
+  }
+  &__designation {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 15px;
   }
 }

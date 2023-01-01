@@ -14,13 +14,14 @@
 }
 .culture-description{
     font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    font-size: 14px;
+    line-height: 30px;
 }
 .culture-img-wrapper{
     max-width: 100%;
     margin-top:30px;
     margin-bottom:10px;
+    border-radius: 4px;
 }
 .culture-container{
     &.right{

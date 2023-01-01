@@ -32,7 +32,9 @@ const Godavariheader = () => {
     <header>
       <nav className="nav-bar">
         <div className="godavari_logo_wrapper">
-        <img className="godavari_logo" src={godavarilogo} alt="godavarilogo" />
+        <NavLink to="/">
+          <img className="godavari_logo" src={godavarilogo} alt="godavarilogo" />
+        </NavLink>
         </div>
         <div className="hamburgermenu" onClick={onToggleclick}>
           <div className="menu">
@@ -44,10 +46,10 @@ const Godavariheader = () => {
         </div>
 
         <div className="navbar__link hide">
-          <NavLink to="/godavari-builders" activeclassname="active">Home</NavLink>
+          <NavLink to="/" activeclassname="active">Home</NavLink>
           <NavLink to="/g-about-us" activeclassname="active">About Us</NavLink>
           <div className="drop-down">
-            <a  className="drop-down-item">Properties</a>
+            <a  className="drop-down-item">Projects</a>
             <ul className="dropdown">
                   <li><NavLink to="/luxury-houses" activeclassname="active">Luxury Houses</NavLink></li>
                   <li><NavLink to="/little-oaks" activeclassname="active">Little OAKS</NavLink></li>

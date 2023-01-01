@@ -1,5 +1,5 @@
 import React from "react";
-import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideosWrapper,HappyClientsWrapper,Ongoingprojects, ImageCarousel} from "../../components";
+import {Properties,Propertiesfooter,Godavariheader,Godavariaboutus,Improvingpeople,ProjectHeadings,HappyClientsVideosWrapper,HappyClientsWrapper,Ongoingprojects, ImageCarousel, GetInTouch} from "../../components";
 import littleOAKS from "../../images/carouselImages/little_OAKS.jpg";
 import improvingcontactus from "./Improvingcontactusarrow.svg";
 import leftarrowimproving from "../../images/vector-left-arrow.svg";
@@ -9,7 +9,7 @@ import happyimg1 from "../../images/HappyClients/underline.png";
 
 
 const Godavari_Builders = () => {
-    const improvingpeopledescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa';
+    const improvingpeopledescription = 'Godavari Builders and Developers was founded in 2021 by Mr. H Pratap Reddy  for creating a world-class construction buildings and real estate company. As the chief architect and promoter of the company, Mr.Pratap Reddy is driving the vision and the purpose of the company. Since its first project, Godavari Builders and Developers has created landmarks in the city of Anantapur. Clients, associates and all stakeholders in the eco-system have come to recognize the values driven approach of the company.';
     
     return (
         <div> 
@@ -29,7 +29,7 @@ const Godavari_Builders = () => {
             <div className="happyvideos">
                 <HappyClientsVideosWrapper />
             </div>
-            
+            <GetInTouch/>
             <Propertiesfooter />
         </div>
     );

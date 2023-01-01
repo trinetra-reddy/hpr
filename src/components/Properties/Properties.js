@@ -19,11 +19,7 @@ const Properties = (props) => {
                         <div className="prop-text2 col-12 col-lg-6">
                             <div>
                                 We recognise that our success is the direct result of the hard work of
-                                the people who work for us, with us and alongside us
-                            </div>
-                            <div>Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                the people who work for us, with us and along side us.
                             </div>
                         </div>
                         <div className="prop-ourproject">

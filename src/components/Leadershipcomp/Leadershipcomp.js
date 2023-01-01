@@ -8,8 +8,9 @@ import './Leadershipcomp.scss';
                 <img className="Leader-img" src={props.img} alt="pratap" />
             </div>
             <div className="right-container">
-                <h1 className="Holder-name">{props.name}</h1>
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
+                <h1 className="Holder-name">{props.name} <sub className="leadership__degree">{props.degree}</sub></h1>
+                <div className="leadership__designation">{props.designation}</div>
+                <div>{props.desc}</div>
             </div>
          </div>
      </>

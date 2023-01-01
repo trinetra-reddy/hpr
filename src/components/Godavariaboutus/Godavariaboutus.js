@@ -11,8 +11,7 @@ const Godavariaboutus = () => {
         <div className="godavari-aboutus-1">
           <div className="godavari-aboutus-1-left">
             <p>
-              We were originally established as a constractor to major
-              housebuilders
+              We were originally established as a contractor to major house builders
             </p>
           </div>
           <div className="godavari-aboutus-1-right">
@@ -38,27 +37,23 @@ const Godavariaboutus = () => {
           <DataValues
             heading="Total workers"
             count="400+"
-            description="Workers with more than 10 year’s
-service"
+            description="Workers with more than 10 year’s service"
          />
           
           <DataValues
             heading="Years Experience"
             count="11+"
-            description="HPR Godavari bulders and developers
-are in this field"
+            description="HPR Godavari bulders and developers are in this field"
           />
           <DataValues
             heading="Completed Projects"
-            count="300+"
-            description="Project bulded all over Andhra 
-Pradesh and in Tamil Nadu"
+            count="10+"
+            description="Project bulded all over Andhra Pradesh"
           />
           <DataValues
             heading="Happy Costumers"
-            count="1500k"
-            description="People and familys have beautiful
-future and happy"
+            count="300+"
+            description="People and familys have beautiful future and happy"
           />
         </div>
       </div>

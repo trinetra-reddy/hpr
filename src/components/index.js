@@ -29,7 +29,7 @@ import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
 import ImageCarousel from "./ImageCarousel/ImageCarousel";
 import Amenities from './Amenities/Amenities';
-
+import GetInTouch from './GetInTouch/GetInTouch';
 
 export {
   Properties,
@@ -61,5 +61,6 @@ export {
   Leadershipcomp,
   Ongoingprojects,
   ImageCarousel,
-  Amenities
+  Amenities,
+  GetInTouch
 };
