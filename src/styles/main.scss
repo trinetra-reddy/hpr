@@ -1,0 +1,75 @@
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+@import './variables';
+@import './utilities';
+// @import '../components/ProjectButtons/ProjectButtons.scss';
+@import './carousel';
+
+:root {
+  --swiper-navigation-color: #026b33 !important;
+  --swiper-theme-color: #026b33 !important;
+  --swiper-navigation-size: 30px;
+  }
+  
+.component-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  @media screen and (min-width: 988px) {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .top-carousel-nav {
+    .swiper-wrapper {
+      padding-top: 50px;
+    }
+  
+    .swiper-button-prev {
+      top: 0;
+      z-index: 1000;
+      margin-top: 0;
+      right: 67px;
+      left: auto;
+    }
+    .swiper-button-next {
+      top: 0;
+      z-index: 1000;
+      margin-top: 0;
+      right: 10px;
+      left: auto;
+    }
+  }

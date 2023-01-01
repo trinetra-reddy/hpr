@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+.culture-head1{
+    border-bottom :4px solid $color-15;
+    
+}
+.culture-main{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+.our-culture-main{
+    background-color: $color-29;
+    padding:10px;
+}
+.culture-description{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+.culture-img-wrapper{
+    max-width: 100%;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.culture-container{
+    &.right{
+        flex-direction: row-reverse;
+       
+    }
+}
+
+@media screen and (min-width:998px){
+    .culture-container{
+        display:flex;
+        gap:55px;
+    }
+    .culture-img-wrapper{
+        width:490px;
+        height:289px;
+        margin-top:40px;
+    }
+    .our-culture-main{
+        padding:60px 108px;
+    }
+    .culture-description{
+        margin-top:40px;
+    }
+}

@@ -1,0 +1,108 @@
+@import "../../styles/variables";
+.godavari-aboutus-heading h2{
+  padding: 30px 0px 0px 10px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.godavari-aboutus-columns{
+  padding-left: 10px;
+}
+.godavari-aboutus-1-left p {
+  font-size: 24px;
+  font-weight: 700;
+  width: 100%;
+  line-height: 24px;
+  padding: 10px 10px 10px 10px;
+}
+.godavari-aboutus-1-right p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 14px;
+  padding: 0px 10px 10px 10px;
+}
+.godavari-aboutus-2 p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 24px;
+  padding: 0px 10px 10px 10px;
+}
+.godavari-aboutus-hr {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.godavari-aboutus-columns {
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .godavari-aboutus {
+    margin-top: 60px;
+  }
+  .godavari-aboutus-heading h2 {
+    font-weight: 700;
+    padding: 60px 0px 40px 108px;
+    font-size: 32px;
+  }
+  .aboutusheading1 {
+    border-bottom: 4px solid $color-15;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 108px;
+  }
+  .aboutusheading2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 30px 0px 0px 10px;
+  }
+  .godavari-aboutus-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .godavari-aboutus-1-left {
+    padding: 0px 23px 0px 108px;
+    width: 50%;
+  }
+
+  .godavari-aboutus-1-left p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    padding: 0px;
+  }
+
+  .godavari-aboutus-1-right {
+    padding: 0px 108px 0px 23px;
+    width: 50%;
+  }
+
+  .godavari-aboutus-1-right p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .godavari-aboutus-2 {
+    padding: 24px 108px 60px 108px;
+  }
+
+  .godavari-aboutus-2 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .godavari-aboutus-hr {
+    padding-right: 108px;
+    padding-left: 108px;
+  }
+  .godavari-aboutus-columns {
+    padding: 60px 108px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+.chooseblocks-main-container {
+  background-color: $white;
+  background-image: url(./Choose-cards-bg.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 5px 40px 0 $color-3;
+  padding: 28px 20px;
+  margin-bottom: 20px;
+}
+.chooseblocks-icon {
+  max-width: 100%;
+  height: 75px;
+  width: 75px;
+}
+.chooseblocks-icon-wrapper {
+  padding: 5px 0 30px;
+}
+.chooseblocks-header {
+  color: $color-10;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 500;
+}
+.chooseblocks-header-wrapper {
+  padding-bottom: 15px;
+}
+.chooseblocks-content {
+  color: $color-9;
+  line-height: 1.9;
+  font-size: 14px;
+  text-align: left;
+  justify-content: center;
+  font-weight: 400px;
+  max-width: 100%;
+  letter-spacing: 0.5px;
+}

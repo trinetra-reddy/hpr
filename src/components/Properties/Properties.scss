@@ -1,0 +1,215 @@
+@import "../../styles/variables";
+.properties-main {
+  background-color: $color-15;
+  color: $white;
+  width: 100%;
+  padding: 15px;
+  
+}
+.properties {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+}
+.prop1 {
+  border-bottom: 4px solid $white;
+}
+.prop-text1 {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 135%;
+}
+.prop-text2 {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.prop-project {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.prop-button1 {
+  background-color: $color-15 ; /* Green */
+  border: 1px solid $white;
+  color: $white;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2rem;
+  margin-right: 2%;
+  margin-left:4%;
+}
+.prop-button2 {
+  border-radius: 2rem;
+  border: none;
+  color: black;
+}
+.prop-img1 {
+  margin-top: 15px;
+  max-width: 100%;
+  margin-left:10px;
+}
+.prop-img2 {
+  margin-top: 15px;
+  max-width: 100%;
+  margin-left:10px;
+}
+.prop-proj-img {
+  position: absolute;
+  margin-top:13px;
+  width:100px;
+  left: 0px;
+}
+.prop-ourproject{
+  margin-top:10px;
+}
+@media screen and (min-width: 998px) {
+  .properties-main {
+    padding-left: 108px;
+    padding-right: 108px;
+    height: 669px;
+  }
+  .properties {
+    margin-top: 60px;
+  }
+  .prop-text1 {
+    margin-top: 59px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 135%;
+    max-width: 490px;
+  }
+  .prop-text2 {
+    margin-top: 54px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .prop-project {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 37px;
+  }
+  .prop-button1 {
+    background-color:  $color-15; /* Green */
+    border:1px solid $white;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 68px;
+    height: 44px;
+    margin-top: 30px;
+    position: absolute;
+    left: 690px;
+
+  }
+  .prop-button2 {
+    position: absolute;
+    width: 84px;
+    height: 44px;
+    margin-top: 30px;
+    left: 810px;
+  }
+  .prop-proj-img {
+    position: absolute;
+    margin-top: 55px;
+    width: 480px;
+    left: 250px;
+  }
+  .prop-images{
+    display:flex;
+    gap:34px;
+    max-width:100%;
+  }
+  .prop-img1 {
+    margin-top: 20px;
+    margin-left:0px;
+  }
+  .prop-img2 {
+    margin-top: 20px;
+    margin-left:0px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .prop-main{
+    margin-bottom:120px;
+  }
+  .prop-button1{
+    margin-left:290px;
+  }
+  .prop-button2{
+    margin-left:250px;
+  }
+  .prop-proj-img {
+    position: absolute;
+    margin-top: 54px;
+    width: 710px;
+    margin-left:18px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .properties-main{
+    height: 700px;
+  }
+  .prop-text1 {
+    font-size: 32px;
+    margin-right: 55px;
+  }
+
+  .prop-img1 {
+    margin-top: 40px;
+  }
+  .prop-img2 {
+    margin-top: 40px;
+  }
+  .prop-project {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 47px;
+  }
+  .prop-button1 {
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 80px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left:370px;
+  }
+  .prop-button2 {
+    position: absolute;
+    width: 98px;
+    height: 44px;
+    margin-top: 40px;
+    margin-left:350px;
+  }
+  .prop-proj-img {
+    position: absolute;
+    margin-top: 62px;
+    width:775px;
+    margin-left: 24px;
+  }
+}
+
+.prop-images {
+  margin-top: 40px;
+  .swiper-slide {
+    background-color: transparent;
+  }
+}
+.prop-img-ele {
+  height: 280px !important;
+  width: auto !important;
+  // background-color: $white;
+}

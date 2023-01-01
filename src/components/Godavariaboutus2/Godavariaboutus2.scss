@@ -1,0 +1,76 @@
+@import "../../styles/variables";
+.godavariaboutus2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+  
+  .godavariaboutus2-left {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .godavariaboutus2-left-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .godavariaboutus2-left-heading1 h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 18px;
+  }
+  
+  .godavariaboutus2-left-content {
+    font-size: 14px;
+    font-size: 400;
+    margin-top: 15px;
+  }
+  
+  .godavariaboutus2-right-image {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $white;
+    border-radius: 5px;
+  }
+  
+  @media screen and (min-width: 988px) {
+    .godavariaboutus2 {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 136px;
+    }
+  
+    .godavariaboutus2-left {
+      padding: 0px;
+      margin-left: 108px;
+      flex: 50%;
+      margin-top: 60px;
+    }
+    .godavariaboutus2-left-heading h2{
+        margin-top: 34px;
+      }
+  
+    .godavariaboutus2-left-heading1 h2{
+      max-width: 451px;
+      margin-top: 24px;
+    }
+  
+    .godavariaboutus2-left-content {
+      margin-top: 24px;
+      max-width: 490px;
+    }
+     
+    .godavariaboutus2-right {
+      margin-right: 108px;
+      flex: 50%;
+    }
+  
+    .godavariaboutus2-right-image {
+      position: relative;
+      width: 100%;
+      padding: 0px;
+      margin-top: 60px;
+    }
+  }

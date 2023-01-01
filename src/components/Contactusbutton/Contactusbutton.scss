@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+.Contactusbutton-redirect {
+  text-decoration: none;
+  color: $white;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding-right: 5px;
+
+  &:hover {
+    color: $white;
+  }
+}
+.Contactusbutton-wrapper {
+  background-color: $color-15;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.Contactusbutton-vectorimage {
+  height: 9px !important;
+  width: 14px !important;
+}

@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+.coreValuesImg{
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    
+}
+.coreValues:hover{
+    box-shadow: 0px 5px 28.5px 1.5px $color-20;
+    border-top: 5px solid $color-21;
+    border-radius:10px;
+}
+.coreValuesContent{
+    text-align: center;
+    padding: 10px 30px 10px;
+    color: $black;
+    font-size: 16px;
+    font-weight: 400
+}
+.coreValuesheading{
+    text-align: center;
+    padding-top:10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+   
+}
+.coreValues{
+    margin:40px 20px;
+}
+@media screen and (max-width:475px){
+    .coreValuesImg{
+        width:50%;
+    }
+}
+@media screen and (min-width:992px){
+    .coreValuesImg{
+        padding:10px;
+        
+    }
+}

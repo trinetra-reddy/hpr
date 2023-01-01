@@ -1,0 +1,105 @@
+@import "../../styles/variables";
+.your-journey {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+  
+  .your-journey-left {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .your-journey-left-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .your-journey-left-content {
+    font-size: 14px;
+    font-size: 400;
+    margin-top: 10px;
+  }
+  
+  .your-journey-button {
+    margin-top: 20px;
+  }
+  
+  .your-journey-contactus-button{
+    background-color: $color-15;
+    border: none;
+    color: $white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .your-journey-button-left {
+    background-color: $white;
+    border-radius: 20px;
+    padding: 6px 10px;
+    width: 50px;
+    border: 1px solid $color-28;
+    margin-top: 49px;
+  }
+  .your-journey-button-left img {
+    width: 21px;
+  }
+  .your-journey-button-right {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 6px 10px;
+    width: 50px;
+    border: 1px solid $color-28;
+    margin-top: 49px;
+    margin-left: auto;
+  }
+  .your-journey-button-right img {
+    width: 21px;
+  }
+  .your-journey-right-image {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $white;
+    border-radius: 5px;
+  }
+  
+  @media screen and (min-width: 988px) {
+    .your-journey {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 136px;
+    }
+  
+    .your-journey-left {
+      padding: 0px;
+      margin-left: 108px;
+      flex: 50%;
+      margin-top: 60px;
+    }
+  
+    .your-journey-left-heading h1{
+      max-width: 485px;
+    }
+  
+    .your-journey-left-content {
+      margin-top: 24px;
+      max-width: 480px;
+    }
+    .your-journey-button {
+      margin-top: 40px;
+    }
+    
+    .your-journey-right {
+      margin-right: 108px;
+      flex: 50%;
+    }
+  
+    .your-journey-right-image {
+      position: relative;
+      width: 100%;
+      padding: 0px;
+      margin-top: 60px;
+    }
+  }

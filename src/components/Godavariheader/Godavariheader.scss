@@ -1,0 +1,178 @@
+@import '../../styles/variables';
+
+  header {
+    position: sticky;
+    top: 0;
+    background-color: $white;
+    z-index: 100;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    z-index: 10;
+    min-height: 80px;
+  }
+  .godavari_logo_wrapper{
+    margin-left: 10px;
+  }
+  .godavari_logo {
+    height : 63px;
+  }
+  .hamburgermenu {
+    padding-right: 25px;
+    padding-top: 0px;
+    cursor: pointer;
+  }
+  .godavarimenu {
+    width: 45px;
+  }
+  .godavariclose {
+    width: 45px;
+  }
+  .hamburgermenu .godavariclose {
+    display: none;
+  }
+  .hamburgermenu.expanded .godavariclose {
+    display: block;
+  }
+  .hamburgermenu.expanded .godavarimenu {
+    display: none;
+  }
+  .navbar__link {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 70px;
+    left: 0px;
+    background-color: $white;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .navbar__link a {
+    text-decoration: none;
+    color: $black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: inherit;
+  }
+  .hide {
+    display: none;
+  }
+  .header-contactus-button {
+    background-color: $color-15;
+    border: none;
+    color: $white !important;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    gap: 10px;
+  }
+  .drop-down ul.dropdown {
+    display: none;
+    position: absolute;
+    padding: 0;
+    list-style-type: none;
+    top: 36px;
+    background: $white;
+    box-shadow: 0px 4px 15px rgba(198, 198, 198,0.25);
+
+  }
+  .drop-down {
+    position: relative;
+    display: block;
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+    .drop-down li {
+      padding-bottom: 10px;
+    }
+  }  
+  
+  @media screen and (min-width: 769px) {
+    .godavari_logo_wrapper{
+      margin-left: 108px;
+    }
+    .nav-bar {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     padding: 0px;
+     box-shadow: 0px 4px 15px $color-27;
+    }
+    .navbar__link {
+      display: block;
+      position: static;
+      width: 100%;
+      height: auto;
+      margin: 0px;
+      padding: 0px;
+      background: none;
+      text-align: right;
+    }
+    .navbar__link a {
+      display: inline-block;
+      padding: 6px 12px;
+      margin: 0px 48px 0px 0px ;
+    }
+    .navbar__link a {
+      text-decoration: none;
+      color: $black;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .navbar__link a::after {
+      content: '';
+      width: 0%;
+      height: 3px;
+      background:$color-15;
+      display: block;
+      margin: auto;
+      transition: 0.5s ease;
+      font-weight: 600;
+    }
+    .navbar__link a:hover::after{
+      width: 100%;
+      font-weight: 600;
+    }
+    .navbar__link .active::after  {
+      width: 100%;
+    }
+    .hamburgermenu {
+      display: none;
+    }
+    .header-contactus-button {
+      margin-right: 24px;
+    }
+    .drop-down ul.dropdown {
+      display: none;
+      position: absolute;
+      padding: 0;
+      list-style-type: none;
+      top: 36px;
+      background: $white;
+      box-shadow: 0px 4px 15px $color-27;
+      text-align: left;
+      min-width: 160px;
+      a {
+        margin-right: 0;
+      }
+    }
+    .drop-down {
+      position: relative;
+      display: inline-block;
+      &:hover {
+        ul {
+          display: block;
+        }
+      }
+    }  
+    
+
+  }
+  
+  

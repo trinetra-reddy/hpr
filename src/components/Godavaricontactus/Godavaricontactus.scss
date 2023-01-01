@@ -1,0 +1,113 @@
+@import "../../styles/variables";
+.g-contactus-main {
+  padding: 20px;
+}
+.g-contactus-header-wrapper {
+  margin-bottom: 54px;
+}
+.g-contactus-header {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 58.51px;
+}
+.g-contactus-body-wrapper {
+  margin-top: 60px;
+}
+.g-contactus-body-header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+}
+.g-contactus-form-wrapper {
+  margin-top: 28px;
+}
+.g-contactus-labels {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.g-contactus-inputs {
+  background-color: $color-16;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  outline: $color-15;
+  margin-bottom: 1rem;
+}
+#g-contactus-inputmessage {
+  min-height: 60px;
+}
+.g-contactus-inputs:hover {
+  cursor: pointer;
+}
+.g-contactus-inputs:focus {
+  border: 1px solid $color-15;
+}
+
+.g-contactus-button-wrapper {
+  margin-top: 1rem;
+}
+
+.g-contactus-button {
+  justify-content: center;
+  width: 100%;
+  background-color: $color-15;
+  border: none;
+  color: $white;
+  font-size: 12px;
+  font-weight: 400;
+  height: 40px;
+  border-radius: 4px;
+}
+.g-contactus-button:hover {
+  cursor: pointer;
+}
+.g-contactus-messageicon {
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+.g-contactus-companydetails {
+  padding: 3rem 0rem;
+}
+.g-contactus-companyname {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: center;
+}
+.g-contactus-logo-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+.g-contactus-logo {
+  height: 70px;
+}
+@media screen and (min-width: 998px) {
+  .g-contactus-main {
+    padding: 60px 108px;
+  }
+  .g-contactus-locations-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  .g-contactus-input-wrapper1 {
+    display: flex;
+    gap: 20px;
+  }
+  .g-contactus-input-subwrap {
+    width: 100%;
+  }
+  .g-contactus-body-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .g-contactus-form-wrapper {
+    flex-basis: 70vw;
+  }
+  .g-contactus-companydetails {
+    padding: 5rem 0 0 2rem;
+  }
+}

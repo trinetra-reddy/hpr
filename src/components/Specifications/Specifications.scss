@@ -1,0 +1,65 @@
+@import "./../../styles/variables";
+.Specify-main-container {
+  padding: 0 10px;
+}
+.Specify-header {
+  font-weight: 700;
+  line-height: 32px;
+}
+.Specify-header-border {
+  border-top: 4px solid $color-15;
+  width: 85px;
+  margin-top: -5px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 998px) {
+  .Specify-main-container {
+    padding: 60px 108px;
+  }
+  .Specify-structure1-grid {
+    grid-area: struct1;
+  }
+  .Specify-structure2-grid {
+    grid-area: struct2;
+  }
+  .Specify-electricals-grid {
+    grid-area: electrical;
+  }
+  .Specify-flooring-grid {
+    grid-area: flooring;
+  }
+  .Specify-facilities-grid {
+    grid-area: facilities;
+  }
+  .Specify-kitchen-grid {
+    grid-area: kitchen;
+  }
+  .Specify-water-grid {
+    grid-area: water;
+  }
+  .Specify-paint-grid {
+    grid-area: paint;
+  }
+  .Specify-features-grid {
+    grid-area: feature;
+  }
+  .Specify-lobby-grid {
+    grid-area: lobby;
+  }
+  .Specify-toilets-grid {
+    grid-area: toilet;
+  }
+  .Specify-doors-grid {
+    grid-area: door;
+  }
+  .Specify-grid-container {
+    display: grid;
+    grid-template-areas:
+      "struct1 struct2 kitchen water"
+      "electrical electrical paint feature"
+      "flooring flooring lobby toilet"
+      "facilities facilities door door";
+    gap: 20px 30px;
+  }
+}

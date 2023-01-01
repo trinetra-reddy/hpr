@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+.happyclientsdetails-content{
+    font-size:14px;
+    font-weight:400;
+    line-height: 24px;
+    padding-top:8px;
+    text-align:left;
+}
+.happyclientsdetails-Name{
+    font-size:18px;
+    font-weight:600;
+    color:$black;
+    text-align:left;
+}
+.happyclientsdetails-main{
+    margin:20px;
+    text-align: left;
+
+    img {
+        min-width: 140px;
+        max-width: 140px;
+        height: 190px !important;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .happyclientsdetails-main{
+        display:flex;
+        margin:0 0px 30px 0px;
+        padding:20px;
+    }
+    .happyclientsdetails{
+        padding-left:14px;
+    }
+    
+    
+}
+@media screen and (min-width:992px){
+    .happyclient-details{
+        display:flex;
+    }
+}
+@media screen and (min-width:1024px){
+    .happyclient-details{
+        margin:23px 108px;
+    }
+    
+}
+
+
+
+

@@ -1,0 +1,102 @@
+@import "./../../styles/variables";
+
+.Propertiesfooter-main-container {
+  background-color: $color-13;
+  padding: 40px 20px;
+}
+.Propertiesfooter-body-header1 {
+  color: $white;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.Propertiesfooter-body-header2 {
+  color: $white;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 40px;
+  font-size: 35px;
+}
+.Propertiesfooter-contact-header {
+  color: $white;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.Propertiesfooter-contact-details {
+  color: $white;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: left;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+  }
+}
+.Propertiesfooter-borderline {
+  margin: 30px 0;
+  border-bottom: 1px solid $color-14;
+}
+.Propertiesfooter-redirect {
+  text-decoration: none;
+  color: $white;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  &:hover {
+    color: $white;
+  }
+}
+.Propertiesfooter-redirect-wrapper1 {
+  margin-bottom: 20px;
+}
+.Propertiesfooter-redirect-wrapper2 {
+  margin-bottom: 20px;
+}
+.Propertiesfooter-dropdown {
+  margin-left: -32px;
+  list-style: none;
+}
+
+@media screen and (min-width: 425px) {
+  .Propertiesfooter-contact-details {
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 996px) {
+  .Propertiesfooter-main-container {
+    padding: 60px 108px 34px;
+  }
+  .Propertiesfooter-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Propertiesfooter-headercontent {
+    flex-basis: 190vw;
+  }
+  .Propertiesfooter-body-header2 {
+    letter-spacing: 0.8px;
+    line-height: 46.2px;
+  }
+  .Propertiesfooter-footer {
+    display: flex;
+    align-items: center;
+  }
+  .Propertiesfooter-redirect-wrapper1 {
+    margin: 0 50px 0 0;
+  }
+  .Propertiesfooter-redirect-wrapper2 {
+    margin: 0 30px 0 0;
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+  }
+  .Propertiesfooter-contact-details {
+    max-width: 100%;
+  }
+  .Propertiesfooter-dropdown {
+    display: none;
+  }
+}

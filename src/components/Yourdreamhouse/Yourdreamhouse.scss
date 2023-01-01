@@ -1,0 +1,102 @@
+@import "../../styles/variables";
+.yourdream-house {
+  display: flex;
+  flex-direction: column;
+}
+
+.yourdream-house-left {
+  padding: 10px;
+  width: 100%;
+}
+
+.yourdream-house-left-heading h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.yourdream-house-left-content p {
+  font-size: 14px;
+  font-size: 400;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.yourdream-house-left-button {
+  background-color: $white;
+  border-radius: 20px;
+  padding: 6px 10px;
+  width: 50px;
+  border: 1px solid $color-28;
+  margin-top: 49px;
+}
+.yourdream-house-left img {
+  width: 21px;
+}
+.yourdream-house-right-button {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 6px 10px;
+  width: 50px;
+  border: 1px solid $color-28;
+  margin-top: 49px;
+  margin-left: 267px;
+}
+.yourdream-house-right image {
+  width: 21px;
+}
+.yourdream-house-right-image {
+  position: relative;
+  width: 100%;
+  // height: 250px;
+  padding: 10px;
+  border: 1px silod $white;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 988px) {
+  .yourdream-house {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+  }
+
+  .yourdream-house-left {
+    padding: 0px;
+    margin-left: 108px;
+    flex: 50%;
+  }
+
+  .yourdream-house-left-heading h1 {
+    max-width: 485px;
+    margin-top: 60px;
+  }
+
+  .yourdream-house-left-content {
+    margin-top: 24px;
+    max-width: 480px;
+    margin-bottom: 40px;
+  }
+  .yourdream-house-left img {
+    width: 21px;
+  }
+  .yourdream-house-right-button {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 6px 10px;
+    width: 50px;
+    border: 1px solid $color-28;
+    margin-top: 49px;
+    margin-left: auto;
+  }
+  .yourdream-house-right {
+    flex: 50%;
+    margin: 0px 108px 0px 0px;
+  }
+
+  .yourdream-house-right-image {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin-top: 60px;
+  }
+}

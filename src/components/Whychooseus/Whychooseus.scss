@@ -1,0 +1,63 @@
+@import "../../styles/variables";
+
+.Choose-container {
+  background-image: url(./Choose-Images/Choose-Bg.svg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.Choose-span {
+  background-image: $gradientcolor-2;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.Choose-header-1 {
+  background-image: $gradientcolor-1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+.Choose-header-2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+.Choose-paragraph {
+  color: $color-9;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 400;
+}
+.Choose-blocks {
+  margin-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .Choose-blocks {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px 20px;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .Choose-container {
+    margin-top: 60px;
+  }
+  .Choose-blocks {
+    grid-template-columns: auto auto auto;
+  }
+  .Choose-header-2 {
+    font-size: 30px;
+  }
+  .Choose-paragraph {
+    padding: 0 17%;
+  }
+}

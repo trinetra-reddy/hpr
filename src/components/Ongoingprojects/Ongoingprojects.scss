@@ -1,0 +1,31 @@
+.Ongoingproject-main {
+  padding: 20px;
+}
+.Ongoingproject-header {
+  text-align: center;
+  font-weight: 600;
+  line-height: 46.2px;
+  letter-spacing: 0.5px;
+}
+.Ongoingproject-projects-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .swiper-wrapper {
+    align-items: center;
+  }
+}
+.Ongoingproject-images {
+  height: 300px;
+  width: 100%;
+}
+@media screen and (min-width: 996px) {
+  .Ongoingproject-main {
+    padding: 60px 108px 0;
+  }
+  .Ongoingproject-projects-wrapper {
+    flex-direction: row;
+    margin-top: 70px;
+  }
+}

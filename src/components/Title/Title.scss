@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+.title-main{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 39px;
+}
+.title-wrapper{
+    border-bottom:4px solid $white;
+}
+.green-border{
+    border-bottom:4px solid $color-15 ;
+}
