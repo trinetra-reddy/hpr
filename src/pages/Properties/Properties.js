@@ -6,8 +6,11 @@ import yourdreamhousecontactus from  "./yourdreamhousecontactus.svg";
 import roadImg from "../../images/Properties1.jpg";
 import HouseImage from "../../images/carouselImages/little_OAKS.jpg";
 import './Properties.scss';
-import img1 from "../../images/floorplan.jpeg";
-import img2 from "../../images/stiltfloor.jpeg";
+import isometriView from '../../images/isometriView.png';
+import stiltfloor from '../../images/parking.png';
+import typiccalFloorPlan from '../../images/typiccalFloorPlan.png';
+import stilt from '../../images/stilt.png';
+import firstFloor from '../../images/firstFloor.png';
 
 
 
@@ -19,7 +22,7 @@ const Properties = () => {
             <Godavariheader />
             <Yourdreamhouse heading="Your Dream House as Apartment and Villas" description={yourdreamhousedescription} btn="Contact us" img={yourdreamhousecontactus} leftarrowimg={leftarrowyourdreamhouse} rightarrowimg={rightarrowyourdreamhouse} imgPath={HouseImage}/>
             <Specifications/>
-            <Floorplan img1={img1} img2={img2} />
+            <Floorplan img1={isometriView} img2={stiltfloor} img3={typiccalFloorPlan} img4={stilt} img5={firstFloor} />
             <div className="road-map">
             <Road roadImage={roadImg} width="583px" height="555px" roadtext="800Meters to D-Mart" roadtext2="200 Meters to Tapovanam Circle" heading="Location Advantages"/>
             <Map />

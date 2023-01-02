@@ -8,7 +8,7 @@ const Contactusbutton = () => {
     <>
         <button className="Contactusbutton-wrapper">
           <Link className="Contactusbutton-redirect" to="/g-contact-us">
-            Contact Us
+            Enquire Now
           </Link>
           <img
             className="Contactusbutton-vectorimage"

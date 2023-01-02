@@ -1,9 +1,7 @@
 import React from "react";
-import leftarrowyourdreamhouse from "./leftarrowyourdreamhouse.png";
-import rightarrowyourdreamhouse from "./rightarrowyourdreamhouse.png";
 import "./Yourdreamhouse.scss";
 import Contactusbutton from "../Contactusbutton/Contactusbutton";
-
+import DownloadBrochure from '../DownloadBrochure';
 const Yourdreamhouse = (props) => {
   return (
     <>
@@ -15,14 +13,9 @@ const Yourdreamhouse = (props) => {
           <div className="yourdream-house-left-content">
             <p>{props.description}</p>
           </div>
-          <Contactusbutton />
-          <div>
-            <button className="yourdream-house-left-button">
-              <img src={leftarrowyourdreamhouse} alt="left arrow" />
-            </button>
-            <button className="yourdream-house-right-button">
-              <img src={rightarrowyourdreamhouse} alt="right arrow" />
-            </button>
+          <div className="flex gap-4">
+            <Contactusbutton /> 
+            <DownloadBrochure/>
           </div>
         </div>
         <div className="yourdream-house-right">

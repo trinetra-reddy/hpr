@@ -34,12 +34,16 @@ const Floorplan = (props) => {
               <SwiperSlide>
                 <img className="floorplans__img" src={props.img2} alt="stilt-floorplan" />
               </SwiperSlide>
-              <SwiperSlide>
-                <img className="floorplans__img" src={props.img1} alt="typical-floorplan" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img className="floorplans__img" src={props.img2} alt="stilt-floorplan" />
-              </SwiperSlide>
+              {props.img3 && <SwiperSlide>
+                <img className="floorplans__img" src={props.img3} alt="typical-floorplan" />
+              </SwiperSlide>}
+              {props.img4 && <SwiperSlide>
+                <img className="floorplans__img" src={props.img4} alt="stilt-floorplan" />
+              </SwiperSlide>}
+              {props.img5 && <SwiperSlide>
+                <img className="floorplans__img" src={props.img5} alt="stilt-floorplan" />
+              </SwiperSlide>}
+              
             </Swiper>
         </div>
       </div>

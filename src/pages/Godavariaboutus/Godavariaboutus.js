@@ -7,6 +7,7 @@ import archImage from '../../images/carouselImages/arch.jpeg';
 import ourMissionImg from '../../images/carouselImages/ourMission.jpeg';
 import happyimg1 from "../../images/HappyClients/underline.png";
 import PrathapReddy from '../../images/prathapReddy.jpg';
+import RajImage from '../../images/raj.jpeg';
 
 const Godavariaboutus = () => {
     const ourVisionDes = `To become the leading construction firm, while delivering projects that consistently exceed international standards and provide exceptional customer satisfaction.`;
@@ -33,13 +34,13 @@ const Godavariaboutus = () => {
         }
     ];
     const pratapReddyDesc = `Mr. H. Pratap Reddy is know as a HPR. He has more than 10+ years of experience in Real estate and constrction area. He worked with multiple builders and top notch Artichects. And in the year of 2021 he established the Godavali builders and developers. Now he is focing on to become the leading construction firm, while delivering projects that consistently exceed standards and provide exceptional customer satisfaction.`
-    const rajDesc = 'Mr. Rajshekar Reddy is closing working with Mr. H. Pratap Reddy and Engineers to make sure deliver the quality projects (Buildings and Apartmetns). He is also taking care of material management to make sure provide the top quality of materials to build quality houses and apartments.'
+    const rajDesc = 'Mr. Rajshekar Reddy is closely working with Mr. H. Pratap Reddy and Engineers to make sure deliver the quality projects (Buildings and Apartmetns). He is also taking care of material management to make sure provide the top quality of materials to build quality houses and apartments.'
     return (
         <div>
             <Godavariheader />
             <Godavariaboutus2 heading="About Us" heading1="We were originally established as a contractor to major  house builders" description={godavariaboutus2description} imgPath={homeImage}/>
             <Leadershipcomp name="H. Pratap Reddy" degree="B.A" img={PrathapReddy} designation="Founder, Executive Director, Godavari Builders and developers" desc={pratapReddyDesc}/>
-            <Leadershipcomp  name="Rajshekar Reddy" img ={PrathapReddy} imgPosition="right"  designation="Director, Godavari Builders and developers" desc={rajDesc}/>
+            <Leadershipcomp  name="Rajshekar Reddy" img ={RajImage} imgPosition="right"  designation="Director, Godavari Builders and developers" desc={rajDesc}/>
             <Ourculture name="Our C" name2="ore values" description='' imgPath={homeImage} background="#FAFAFA">
                 {ourValues.map ((item, index) => (<div key={index}>
                     <h6 className="fw-semi-bold">{item.header}</h6>

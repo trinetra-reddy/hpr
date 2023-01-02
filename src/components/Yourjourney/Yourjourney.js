@@ -1,6 +1,6 @@
 import React from 'react';
 import './Yourjourney.scss';
-
+import DownloadBrochure from '../DownloadBrochure';
 const Yourjourney = (props) => {
     return (
         <>
@@ -12,9 +12,12 @@ const Yourjourney = (props) => {
                     <div className="your-journey-left-content">
                         <p>{props.description}</p>
                     </div>
-                    {!props.hideBtn &&<div>
-                        <button className="your-journey-contactus-button">{props.btn}<img src={props.img} alt=""/></button>
-                    </div> }
+                    <div className="flex gap-4">
+                        {!props.hideBtn &&<div>
+                            <button className="your-journey-contactus-button">{props.btn}<img src={props.img} alt=""/></button>
+                        </div> }
+                        <DownloadBrochure/>
+                    </div>
                 </div>
                 <div className="your-journey-right">
                     <img className="your-journey-right-image" src={props.imgPath} alt=""/>
