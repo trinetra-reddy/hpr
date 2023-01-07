@@ -9,8 +9,13 @@ const HappyClientsVideosWrapper = (props) => {
     return (
         <>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={1}
                 spaceBetween={30}
+                breakpoints = {{
+                    768 : {
+                        slidesPerView: 3
+                    }
+                }}
                 // autoplay={{
                 //     delay: 2500,
                 //     disableOnInteraction: false,
