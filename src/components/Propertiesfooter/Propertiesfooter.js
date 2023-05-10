@@ -56,6 +56,11 @@ const Propertiesfooter = () => {
             </Link>
           </div>
           <div className="Propertiesfooter-redirect-wrapper1">
+            <Link className="Propertiesfooter-redirect" to="/light-houses">
+              Light Houses
+            </Link>
+          </div>
+          <div className="Propertiesfooter-redirect-wrapper1">
             <Link className="Propertiesfooter-redirect" to="/little-oaks">
               Little OAKS
             </Link>
