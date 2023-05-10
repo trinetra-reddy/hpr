@@ -1,4 +1,4 @@
-import {Godavaribuilders,Properties,Properties2,Godavariaboutus,Godavaricontact } from "../pages";
+import {Godavaribuilders,Properties,Properties2,Godavariaboutus,Godavaricontact,LightHouse } from "../pages";
 import { CONSTANTS } from "./constants";
 
 export const routes = [{
@@ -24,6 +24,10 @@ export const routes = [{
 },{
     component: <Godavaricontact />,
     path: CONSTANTS.ROUTES.GODAVARICONTACT_PAGE,
+    isExact: true
+},{
+    component: <LightHouse />,
+    path: CONSTANTS.ROUTES.LIGHTHOUSE_PAGE,
     isExact: true
 }
 ];
