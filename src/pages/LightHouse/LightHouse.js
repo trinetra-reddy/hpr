@@ -1,9 +1,11 @@
 import React from 'react';
-import { Godavariheader,Propertiesfooter } from '../../components';
+import { Godavariheader,LightHouseCarousel,Propertiesfooter } from '../../components';
+
 const LightHouse = () =>{
     return (
         <>
         <Godavariheader />
+        <LightHouseCarousel />
         <Propertiesfooter />
         </>
     )

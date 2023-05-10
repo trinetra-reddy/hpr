@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.lighthouse-image-carousel {
+    height: calc(130vh - 80px);
+    position: relative;
+}
+
+.lighthouse-image-carousel__slide {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+
+    .lighthouse-image-carousel__slide {
+        position: relative;
+    }
+
+}
