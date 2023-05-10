@@ -3,7 +3,7 @@
 .lighthouse-image-carousel {
     height: calc(300px - 80px);
     position: relative;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .lighthouse-image-carousel__slide {
@@ -14,6 +14,7 @@
     .lighthouse-image-carousel {
         height: calc(130vh - 80px);
     }
+
     .lighthouse-image-carousel__slide {
         position: relative;
     }
