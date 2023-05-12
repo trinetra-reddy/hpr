@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+
+.lighthouse-image-carousel {
+    height: calc(300px - 80px);
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.lighthouse-image-carousel__slide {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .lighthouse-image-carousel {
+        height: calc(130vh - 80px);
+    }
+
+    .lighthouse-image-carousel__slide {
+        position: relative;
+    }
+
+}

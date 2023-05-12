@@ -30,8 +30,12 @@ import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
 import ImageCarousel from "./ImageCarousel/ImageCarousel";
 import Amenities from './Amenities/Amenities';
 import GetInTouch from './GetInTouch/GetInTouch';
+import LightHouseCarousel from "./LightHouseCarousel/LightHouseCarousel";
+import LightHouseVideo from "./LightHouseVideo/LightHouseVideo";
 
 export {
+  LightHouseVideo,
+  LightHouseCarousel,
   Properties,
   Propertiesfooter,
   Floorplan,

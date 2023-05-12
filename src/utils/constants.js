@@ -9,6 +9,7 @@ export const CONSTANTS = {
         GODAVARI_PAGE: '/godavari-builders',
         PROPERTIES_PAGE: '/little-oaks',
         PROPERTIES2_PAGE: '/luxury-houses',
+        LIGHTHOUSE_PAGE: '/light-houses',
         GODAVARIABOUTUS_PAGE: '/g-about-us',
         GODAVARICONTACT_PAGE: '/g-contact-us'
     },
