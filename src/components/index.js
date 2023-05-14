@@ -32,6 +32,7 @@ import Amenities from './Amenities/Amenities';
 import GetInTouch from './GetInTouch/GetInTouch';
 import LightHouseCarousel from "./LightHouseCarousel/LightHouseCarousel";
 import LightHouseVideo from "./LightHouseVideo/LightHouseVideo";
+import Projectspecifications from "./Projectspecifications/Projectspecifications";
 
 export {
   LightHouseVideo,
@@ -66,5 +67,6 @@ export {
   Ongoingprojects,
   ImageCarousel,
   Amenities,
-  GetInTouch
+  GetInTouch,
+  Projectspecifications
 };
