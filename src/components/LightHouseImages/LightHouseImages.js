@@ -12,7 +12,7 @@ const LightHouseImages = () => {
                 </div>
 
                 <div className="lhimage">
-                    <img className="lh-images" src={lhimg2} alt="LightHouse-Related-shopping Pics" />   
+                    <img className="lh-images" src={lhimg2} alt="LightHouse-Related-shopping Pics" />
                 </div>
 
             </div>

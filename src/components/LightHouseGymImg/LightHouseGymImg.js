@@ -5,10 +5,10 @@ import lhimg4 from "../../images/lh-hall.jpg";
 import lhimg5 from "../../images/lh-cricket.jpg";
 
 
-const LightHouseGymImg=()=>{
+const LightHouseGymImg = () => {
     return (
         <>
-         <div className="lightHouse">
+            <div className="lightHouse">
                 <div className="light-house-images">
                     <img className="light-imgs" src={lhimg3} alt="LightHouse-Related-GYM Pics" />
                 </div>

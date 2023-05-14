@@ -1,10 +1,20 @@
-.lightHouse{
-    display: flex;
+@import '../../styles/variables';
+
+.lightHouse {
     margin-bottom: 20px;
 }
-.light-house-images{
-    width:100%;
+
+.light-house-images {
+    width: 100%;
 }
-.light-imgs{
-    width:100%;
+
+.light-imgs {
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .lightHouse {
+        display: flex;
+
+    }
 }

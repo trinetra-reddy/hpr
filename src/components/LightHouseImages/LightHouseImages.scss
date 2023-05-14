@@ -1,11 +1,15 @@
 @import '../../styles/variables';
 
 .lightHouse-images {
-    display: flex;
     margin-bottom: 20px;
 }
 
-.lh-images{
-    width:100%;
+.lh-images {
+    width: 100%;
 }
 
+@media screen and (min-width:768px) {
+    .lightHouse-images {
+        display: flex;
+    }
+}
