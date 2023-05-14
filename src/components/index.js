@@ -34,8 +34,12 @@ import LightHouseCarousel from "./LightHouseCarousel/LightHouseCarousel";
 import LightHouseVideo from "./LightHouseVideo/LightHouseVideo";
 import Projectspecifications from "./Projectspecifications/Projectspecifications";
 import LightHouseMap  from "./LightHouseMap/LightHouseMap";
+import LightHouseImages from "./LightHouseImages/LightHouseImages";
+import LightHouseGymImg from "./LightHouseGymImg/LightHouseGymImg";
 
 export {
+  LightHouseGymImg,
+  LightHouseImages,
   LightHouseVideo,
   LightHouseCarousel,
   Properties,
