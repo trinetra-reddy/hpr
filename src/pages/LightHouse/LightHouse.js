@@ -14,13 +14,18 @@ import lighthouseimg11 from "../../images/LightHouseCarouselimages/lighthouse-im
 import Masterplan1 from "../../images/Masterplan1.jpg";
 import Masterplan2 from "../../images/Masterplan2.jpg";
 import Masterplan3 from "../../images/Masterplan3.jpg";
+import Masterplan4 from "../../images/Masterplan4.jpg";
+import Masterplan5 from "../../images/Masterplan5.jpg";
+import Masterplan6 from "../../images/Masterplan6.jpg";
+import Masterplan7 from "../../images/Masterplan7.jpg";
+import Masterplan8 from "../../images/Masterplan8.jpg";
 
 
 const LightHouse = () => {
 
     const lightHouseCarouselImages1 = [lighthouseimg1, lighthouseimg2, lighthouseimg3, lighthouseimg4, lighthouseimg5, lighthouseimg6, lighthouseimg7, lighthouseimg8];
     const lightHouseCarouselImages2 = [lighthouseimg9, lighthouseimg10, lighthouseimg11];
-    const lightHouseCarouselImages3 = [Masterplan1,Masterplan2,Masterplan3];
+    const lightHouseCarouselImages3 = [Masterplan1,Masterplan2,Masterplan3,Masterplan4,Masterplan5,Masterplan6,Masterplan7,Masterplan8];
 
     return (
         <>
