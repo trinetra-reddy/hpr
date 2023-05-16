@@ -1,0 +1,66 @@
+@import "../../styles/_variables";
+.LightHouseVision-Container {
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.LightHouseVision-Header h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: $black;
+}
+.LightHouseVision-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: $black;
+  text-align: justify;
+}
+.LightHouseVision-Highlighter h1 {
+  padding: 10px 10px 0;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: italic;
+  color: $color-15;
+}
+.LightHouseVision-Logo {
+  padding: 30px 90px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .LightHouseVision-Container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 60px;
+  }
+  .LightHouseVision-subContainer1 {
+    flex: 50%;
+    margin-right: 60px;
+  }
+  .LightHouseVision-subContainer2 {
+    flex: 50%;
+  }
+  .LightHouseVision-Highlighter {
+    margin-top: 150%;
+  }
+}
+@media screen and (min-width: 998px) {
+  .LightHouseVision-Highlighter {
+    margin-top: 60%;
+  }
+  .LightHouseVision-Logo {
+    padding: 30px 150px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .LightHouseVision-Logo {
+    padding: 30px 240px;
+  }
+  .LightHouseVision-Highlighter {
+    margin-top: 30%;
+  }
+}

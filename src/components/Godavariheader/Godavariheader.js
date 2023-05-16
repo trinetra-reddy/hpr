@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import './Godavariheader.scss';
-import godavarilogo from "./Godavari-logo.jpg";
+import godavarilogo from "../../images/Godavari-logo.jpg";
 import godavarimenu from '../../images/menu-open.svg';
 import godavariclose from '../../images/menu-close.svg';
 import Headercontactus from "./Headercontactus.svg";
@@ -51,9 +51,9 @@ const Godavariheader = () => {
           <div className="drop-down">
             <a  className="drop-down-item">Projects</a>
             <ul className="dropdown">
-                  <li><NavLink to="/luxury-houses" activeclassname="active">Luxury Houses</NavLink></li>
-                  <li><NavLink to="/little-oaks" activeclassname="active">Little OAKS</NavLink></li>
                   <li><NavLink to="/light-houses" activeclassname="active">Light Houses</NavLink></li>
+                  <li><NavLink to="/luxury-oaks" activeclassname="active">Luxury OAKS</NavLink></li>
+                  <li><NavLink to="/little-houses" activeclassname="active">Little Houses</NavLink></li>
               </ul>
           </div>
           <NavLink to="/g-contact-us"className="header-contactus-button">Contact Us <img src={Headercontactus} alt="headercontactus" /></NavLink>

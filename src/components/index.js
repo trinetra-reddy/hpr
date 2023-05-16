@@ -36,8 +36,10 @@ import Projectspecifications from "./Projectspecifications/Projectspecifications
 import LightHouseMap  from "./LightHouseMap/LightHouseMap";
 import LightHouseImages from "./LightHouseImages/LightHouseImages";
 import LightHouseGymImg from "./LightHouseGymImg/LightHouseGymImg";
+import LightHouseVission from "./LightHouseVission/LightHouseVission";
 
 export {
+  LightHouseVission,
   LightHouseGymImg,
   LightHouseImages,
   LightHouseVideo,

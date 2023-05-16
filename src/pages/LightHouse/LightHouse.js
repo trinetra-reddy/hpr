@@ -19,6 +19,7 @@ import Masterplan5 from "../../images/Masterplan5.jpg";
 import Masterplan6 from "../../images/Masterplan6.jpg";
 import Masterplan7 from "../../images/Masterplan7.jpg";
 import Masterplan8 from "../../images/Masterplan8.jpg";
+import LightHouseVision from '../../components/LightHouseVission/LightHouseVission';
 
 
 const LightHouse = () => {
@@ -30,6 +31,7 @@ const LightHouse = () => {
     return (
         <>
             <Godavariheader />
+            <LightHouseVision />
             <LightHouseVideo />
             <LightHouseCarousel lightHouseimages={lightHouseCarouselImages1} />
             <LightHouseCarousel lightHouseimages={lightHouseCarouselImages2} />

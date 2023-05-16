@@ -51,13 +51,13 @@ const Propertiesfooter = () => {
             </Link>
           </div>
           <div className="Propertiesfooter-redirect-wrapper1">
-            <Link className="Propertiesfooter-redirect" to="/luxury-houses">
-              Luxury Houses
+            <Link className="Propertiesfooter-redirect" to="/light-houses">
+              Light Houses
             </Link>
           </div>
           <div className="Propertiesfooter-redirect-wrapper1">
-            <Link className="Propertiesfooter-redirect" to="/light-houses">
-              Light Houses
+            <Link className="Propertiesfooter-redirect" to="/luxury-houses">
+              Luxury Houses
             </Link>
           </div>
           <div className="Propertiesfooter-redirect-wrapper1">
