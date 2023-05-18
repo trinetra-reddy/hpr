@@ -37,9 +37,11 @@ import LightHouseMap  from "./LightHouseMap/LightHouseMap";
 import LightHouseImages from "./LightHouseImages/LightHouseImages";
 import LightHouseGymImg from "./LightHouseGymImg/LightHouseGymImg";
 import LightHouseVission from "./LightHouseVission/LightHouseVission";
+import LightHouseIntegrity from "./LightHouseIntegrity/LightHouseIntegrity";
 
 export {
   LightHouseVission,
+  LightHouseIntegrity,
   LightHouseGymImg,
   LightHouseImages,
   LightHouseVideo,

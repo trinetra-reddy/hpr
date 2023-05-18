@@ -1,5 +1,5 @@
 import React from 'react';
-import { Godavariheader,LightHouseImages,LightHouseGymImg, LightHouseCarousel, LightHouseMap, LightHouseVideo, Projectspecifications, Propertiesfooter } from '../../components';
+import { Godavariheader,LightHouseImages,LightHouseGymImg, LightHouseCarousel, LightHouseMap, LightHouseVideo, Projectspecifications, Propertiesfooter, LightHouseIntegrity } from '../../components';
 import lighthouseimg1 from "../../images/LightHouseCarouselimages/lighthouse-img1.jpg";
 import lighthouseimg2 from "../../images/LightHouseCarouselimages/lighthouse-img2.jpg";
 import lighthouseimg3 from "../../images/LightHouseCarouselimages/lighthouse-img3.jpg";
@@ -32,6 +32,7 @@ const LightHouse = () => {
         <>
             <Godavariheader />
             <LightHouseVision />
+            <LightHouseIntegrity />
             <LightHouseVideo />
             <LightHouseCarousel lightHouseimages={lightHouseCarouselImages1} />
             <LightHouseCarousel lightHouseimages={lightHouseCarouselImages2} />
