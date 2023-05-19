@@ -1,4 +1,3 @@
-
 import Properties from "./Properties/Properties";
 import Propertiesfooter from "./Propertiesfooter/Propertiesfooter";
 import Floorplan from "./Floorplan/Floorplan";
@@ -28,22 +27,21 @@ import HappyClientsWrapper from "./HappyClientsDetails/HappyClientsWrapper";
 import Leadershipcomp from "./Leadershipcomp/Leadershipcomp";
 import Ongoingprojects from "./Ongoingprojects/Ongoingprojects";
 import ImageCarousel from "./ImageCarousel/ImageCarousel";
-import Amenities from './Amenities/Amenities';
-import GetInTouch from './GetInTouch/GetInTouch';
+import Amenities from "./Amenities/Amenities";
+import GetInTouch from "./GetInTouch/GetInTouch";
 import LightHouseCarousel from "./LightHouseCarousel/LightHouseCarousel";
 import LightHouseVideo from "./LightHouseVideo/LightHouseVideo";
 import Projectspecifications from "./Projectspecifications/Projectspecifications";
-import LightHouseMap  from "./LightHouseMap/LightHouseMap";
+import LightHouseMap from "./LightHouseMap/LightHouseMap";
 import LightHouseImages from "./LightHouseImages/LightHouseImages";
 import LightHouseGymImg from "./LightHouseGymImg/LightHouseGymImg";
 import LightHouseVission from "./LightHouseVission/LightHouseVission";
 import LightHouseIntegrity from "./LightHouseIntegrity/LightHouseIntegrity";
-import LightHouseIntegrityComponents from "./LightHouseIntegrity/LightHouseIntegrityComponents";
-
+import OutdoorAmenities from "./OutdoorAmenities/OutdoorAmenities";
 export {
   LightHouseVission,
   LightHouseIntegrity,
-  LightHouseIntegrityComponents,
+  OutdoorAmenities,
   LightHouseGymImg,
   LightHouseImages,
   LightHouseVideo,
@@ -80,5 +78,5 @@ export {
   Amenities,
   GetInTouch,
   Projectspecifications,
-  LightHouseMap
+  LightHouseMap,
 };
