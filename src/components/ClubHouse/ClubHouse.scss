@@ -15,15 +15,24 @@
     padding-top:20px;
 }
 .clubhouse-lists{
-    padding-top:15px;
+    padding-top:8px;
 }
 @media screen and (min-width:990px){
     .clubhouse-main{
         display:flex;
     }
     .clubhouse-left{
-        flex:45%;
+        flex:50%;
         padding:20px;
     }
   
+}
+@media screen and (min-width:1400px){
+    .clubhouse-left{
+        flex:45%;
+
+    }
+    .clubhouse-lists{
+        padding-top:20px;
+    }
 }
