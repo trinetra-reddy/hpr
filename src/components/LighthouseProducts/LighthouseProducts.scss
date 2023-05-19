@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+.lighthouse-products-main {
+  background-color: $color-15;
+  color: $white;
+  padding: 10px;
+}
+.lighthouse-products-heading {
+  padding-top: 20px;
+}
+.products-img1 {
+  max-width: 100%;
+  padding-top: 15px;
+}
+@media screen and (min-width: 990px) {
+  .lighthouse-products-main {
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+  }
+  .products-img1 {
+    background-color: $color-15;
+  }
+  .lighthouse-images {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .lighthouse-product-container {
+    width: 400px;
+    height: 250px;
+  }
+}

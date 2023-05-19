@@ -1,5 +1,6 @@
 import React from "react";
 import LightHousemap from "../../images/LightHousemapfooter.jpg";
+import "./LightHouseMap.scss";
 const LightHouseMap = () => {
     return(
         <>
