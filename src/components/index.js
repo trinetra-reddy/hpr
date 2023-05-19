@@ -38,7 +38,8 @@ import LightHouseImages from "./LightHouseImages/LightHouseImages";
 import LightHouseGymImg from "./LightHouseGymImg/LightHouseGymImg";
 import LightHouseVission from "./LightHouseVission/LightHouseVission";
 import LightHouseIntegrity from "./LightHouseIntegrity/LightHouseIntegrity";
-
+import LighthouseProducts from "./LighthouseProducts/Lighthouseproducts";
+import ClubHouse from "./ClubHouse/ClubHouse";
 export {
   LightHouseVission,
   LightHouseIntegrity,
@@ -78,5 +79,7 @@ export {
   Amenities,
   GetInTouch,
   Projectspecifications,
-  LightHouseMap
+  LightHouseMap,
+  LighthouseProducts,
+  ClubHouse
 };

@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+.clubhouse-main{
+    background-color:$color-15;
+    color:$white;
+    margin-top:20px;
+}
+.clubhouse-heading{
+    text-align: center;
+    padding-top:30px;
+}
+.clubhouse-img{
+    max-width:100%;
+}
+.clubhouse-list{
+    padding-top:20px;
+}
+.clubhouse-lists{
+    padding-top:15px;
+}
+@media screen and (min-width:990px){
+    .clubhouse-main{
+        display:flex;
+    }
+    .clubhouse-left{
+        flex:45%;
+        padding:20px;
+    }
+  
+}
