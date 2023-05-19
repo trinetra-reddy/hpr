@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Godavariheader,LightHouseImages,LightHouseGymImg, LightHouseCarousel, LightHouseMap, LightHouseVideo, Projectspecifications, Propertiesfooter, LightHouseIntegrity, LighthouseProducts,ClubHouse } from '../../components';
+=======
+import { Godavariheader,LightHouseImages,LightHouseGymImg, LightHouseCarousel, LightHouseMap, LightHouseVideo, Projectspecifications, Propertiesfooter, LightHouseIntegrity, OutdoorAmenities } from '../../components';
+>>>>>>> 0787e3dba88a9f5fda692b37bde6f5939452de32
 import lighthouseimg1 from "../../images/LightHouseCarouselimages/lighthouse-img1.jpg";
 import lighthouseimg2 from "../../images/LightHouseCarouselimages/lighthouse-img2.jpg";
 import lighthouseimg3 from "../../images/LightHouseCarouselimages/lighthouse-img3.jpg";
@@ -35,8 +39,12 @@ const LightHouse = () => {
             <LightHouseVision />
             <LightHouseIntegrity />
             <LightHouseCarousel lightHouseimages={lightHouseCarouselImages1} /> 
+<<<<<<< HEAD
             <LighthouseProducts />
             <ClubHouse />
+=======
+            <OutdoorAmenities />
+>>>>>>> 0787e3dba88a9f5fda692b37bde6f5939452de32
             <LightHouseImages />
             <LightHouseGymImg />
             <LightHouseCarousel lightHouseimages= {lightHouseCarouselImages3} />

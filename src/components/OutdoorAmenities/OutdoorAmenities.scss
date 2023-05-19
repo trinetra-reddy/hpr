@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.outdoor-container {
+  margin: 0 20px 40px;
+}
+.outdoor-image {
+  border: 2px solid $color-15;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.outdoorgrid-image {
+  border: 1px solid $color-15;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.outdoorgrid-title {
+  h1 {
+    color: $black;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  &.left {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .outdoor-container {
+    margin: 0 60px 40px;
+    display: flex;
+    gap: 20px;
+  }
+  .outdoor-image {
+    margin: 0;
+  }
+  .outdoor-activities-flex {
+    display: flex;
+    gap: 10px;
+  }
+  .outdoor-activities {
+    padding: 20px 0;
+  }
+}
