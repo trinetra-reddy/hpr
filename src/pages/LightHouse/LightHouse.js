@@ -31,14 +31,14 @@ const LightHouse = () => {
     return (
         <>
             <Godavariheader />
+            <LightHouseVideo />
             <LightHouseVision />
             <LightHouseIntegrity />
-            <LightHouseVideo />
-            <LightHouseCarousel lightHouseimages={lightHouseCarouselImages1} />
-            <LightHouseCarousel lightHouseimages={lightHouseCarouselImages2} />
+            <LightHouseCarousel lightHouseimages={lightHouseCarouselImages1} /> 
             <LightHouseImages />
             <LightHouseGymImg />
             <LightHouseCarousel lightHouseimages= {lightHouseCarouselImages3} />
+            <LightHouseCarousel lightHouseimages={lightHouseCarouselImages2} />
             <Projectspecifications />
             <LightHouseMap />
             <Propertiesfooter />
