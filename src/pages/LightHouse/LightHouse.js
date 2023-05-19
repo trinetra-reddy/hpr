@@ -40,7 +40,7 @@ const LightHouse = () => {
             <LightHouseGymImg />
             <LightHouseCarousel lightHouseimages= {lightHouseCarouselImages3} />
             <Projectspecifications />
-            <LightHouseMap />
+            {/* <LightHouseMap /> */}
             <Propertiesfooter />
         </>
     )

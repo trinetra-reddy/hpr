@@ -38,10 +38,12 @@ import LightHouseImages from "./LightHouseImages/LightHouseImages";
 import LightHouseGymImg from "./LightHouseGymImg/LightHouseGymImg";
 import LightHouseVission from "./LightHouseVission/LightHouseVission";
 import LightHouseIntegrity from "./LightHouseIntegrity/LightHouseIntegrity";
+import LightHouseIntegrityComponents from "./LightHouseIntegrity/LightHouseIntegrityComponents";
 
 export {
   LightHouseVission,
   LightHouseIntegrity,
+  LightHouseIntegrityComponents,
   LightHouseGymImg,
   LightHouseImages,
   LightHouseVideo,
