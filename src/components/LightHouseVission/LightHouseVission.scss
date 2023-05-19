@@ -1,6 +1,6 @@
 @import "../../styles/_variables";
 .LightHouseVision-Container {
-  margin: 40px 20px 0;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -34,7 +34,6 @@
   .LightHouseVision-Container {
     flex-direction: row;
     justify-content: space-between;
-    margin: 40px 60px 0;
   }
   .LightHouseVision-subContainer1 {
     flex: 50%;

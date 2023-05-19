@@ -1,6 +1,6 @@
 @import "../../styles/variables";
 .LightHouseIntegrity-container {
-  margin: 40px 20px;
+  margin: 40px 0px;
 }
 .LightHouseIntegrity-image {
   img {
@@ -65,7 +65,6 @@
 @media screen and (min-width: 768px) {
   .LightHouseIntegrity-container {
     display: flex;
-    margin: 40px 60px;
   }
   .LightHouseIntegrity-image {
     margin: 0;

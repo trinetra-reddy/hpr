@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .outdoor-container {
-  margin: 0 20px 40px;
+  margin-bottom: 40px;
 }
 .outdoor-image {
   border: 2px solid $color-15;
@@ -23,8 +23,8 @@
 .outdoorgrid-title {
   h1 {
     color: $black;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
   }
   &.left {
     display: flex;
@@ -34,7 +34,6 @@
 
 @media screen and (min-width: 768px) {
   .outdoor-container {
-    margin: 0 60px 40px;
     display: flex;
     gap: 20px;
   }
