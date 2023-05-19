@@ -1,25 +1,24 @@
 @import "../../styles/_variables";
 .LightHouseVision-Container {
-  margin: 40px 20px 0;
+  padding: 40px 20px 0;
   display: flex;
   flex-direction: column;
+  background-color: $color-15;
+  color:$white;
 }
 .LightHouseVision-Header h1 {
   font-size: 32px;
   font-weight: 600;
-  color: $black;
   letter-spacing: 0.1;
 }
 .LightHouseVision-content p {
   font-size: 14px;
   font-weight: 400;
-  color: $black;
   text-align: justify;
 }
 .LightHouseVision-Highlighter h1 {
   font-size: 28px;
   font-weight: 400;
-  color: $color-15;
   text-align: center;
 }
 .LightHouseVision-Logo {
@@ -34,7 +33,7 @@
   .LightHouseVision-Container {
     flex-direction: row;
     justify-content: space-between;
-    margin: 40px 60px 0;
+    padding: 40px 60px 0;
   }
   .LightHouseVision-subContainer1 {
     flex: 50%;

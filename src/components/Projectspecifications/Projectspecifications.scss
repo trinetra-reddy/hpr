@@ -1,62 +1,62 @@
 @import "../../styles/variables";
-.projectspecifications-main{
-    background-color:$color-15;
-    color:$white;
-    padding:10px 5px 0px 10px;
+.projectspecifications-main {
+  background-color: $color-15;
+  color: $white;
+  padding: 20px 5px 0px 10px;
 }
-.structure-heading{
-    border:none;
-    border-radius:30px;
-    margin:10px 0px 10px 0px;
+.structure-heading {
+  border: none;
+  border-radius: 30px;
+  margin: 10px 0px 10px 0px;
 }
-.structure-desc1{
-    font-size:13px;
-    margin:0 auto;
-
+.structure-desc1 {
+  font-size: 13px;
+  margin: 0 auto;
 }
-.structure-desc{
-    font-size:13px;
-    margin:0 auto;
-    padding-bottom:20px;
+.structure-desc {
+  font-size: 13px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
-.buttons-head{
-    background:none;
-    border:1px solid $white;
-    font-size:13px;
-    color:$white;
-    border-radius: 30px;
-    padding:8px;
-    margin-right:5px;
+.buttons-head {
+  background: none;
+  border: 1px solid $white;
+  font-size: 13px;
+  color: $white;
+  border-radius: 30px;
+  padding: 8px;
+  margin-right: 5px;
 }
-.doors{
-    padding-bottom:9px;
+.doors {
+  padding-bottom: 9px;
 }
-.doors1{
-    padding-bottom:5px;
+.doors1 {
+  padding-bottom: 5px;
 }
-.structure-desc2{
-    font-size:13px;
-    margin:0 auto;
-    margin-top:9px;
-    padding-bottom:5px;
+.structure-desc2 {
+  font-size: 13px;
+  margin: 0 auto;
+  margin-top: 9px;
+  padding-bottom: 5px;
 }
-@media screen and (min-width:900px){
-    .projectspecifications{
-        display:flex;
-        flex:50%;    }
-        .projectspecifications-left{
-            max-width:50%;
-            margin-right:25px;
-        }
-        .doors-main{
-            display:flex;
-        }
-        .projectspecifications-main{
-            padding-left:70px;
-            padding-right: 50px;
-            padding-bottom:20px;
-        }
-        .structure-desc1{
-            padding-left:90px;
-        }
+@media screen and (min-width: 900px) {
+  .projectspecifications {
+    display: flex;
+    flex: 50%;
+  }
+  .projectspecifications-left {
+    max-width: 50%;
+    margin-right: 25px;
+  }
+  .doors-main {
+    display: flex;
+  }
+  .projectspecifications-main {
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  .structure-desc1 {
+    padding-left: 90px;
+  }
 }

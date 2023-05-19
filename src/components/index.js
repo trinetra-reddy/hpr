@@ -37,12 +37,9 @@ import LightHouseImages from "./LightHouseImages/LightHouseImages";
 import LightHouseGymImg from "./LightHouseGymImg/LightHouseGymImg";
 import LightHouseVission from "./LightHouseVission/LightHouseVission";
 import LightHouseIntegrity from "./LightHouseIntegrity/LightHouseIntegrity";
-<<<<<<< HEAD
 import LighthouseProducts from "./LighthouseProducts/Lighthouseproducts";
 import ClubHouse from "./ClubHouse/ClubHouse";
-=======
 import OutdoorAmenities from "./OutdoorAmenities/OutdoorAmenities";
->>>>>>> 0787e3dba88a9f5fda692b37bde6f5939452de32
 export {
   LightHouseVission,
   LightHouseIntegrity,
@@ -84,9 +81,6 @@ export {
   GetInTouch,
   Projectspecifications,
   LightHouseMap,
-<<<<<<< HEAD
   LighthouseProducts,
   ClubHouse
-=======
->>>>>>> 0787e3dba88a9f5fda692b37bde6f5939452de32
 };
